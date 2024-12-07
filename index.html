@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <div class="amount">
+            <p>Enter Amount</p>
+            <input type="text" placeholder="Amount">
+        </div>
+        <div class="dropdowns">
+            <div class="from-dropdown">
+                <!-- <img id="from-img" src= ""> -->
+                <img id="from-img" src="https://flagsapi.com/IN/flat/64.png">
+                <label for="from-dropdown">From</label>
+                <select name="from-dropdown" class="dropdown" id="from">
+                    <!-- options will be here -->
+                </select>
+            </div>
+            <img id="exchange-img" src="https://img.icons8.com/?size=100&id=61743&format=png&color=000000"
+                alt="arrow-image">
+            <div class="to-dropdown">
+                <img id="to-img" src="https://flagsapi.com/US/flat/64.png">
+                <label for="to-dropdown">To: </label>
+                <select name="to-dropdown" class="dropdown" id="to">
+                    <!-- options will be here -->
+                </select>
+            </div>
+        </div>
+        <p id="message">INR 1 = 0.01181 USD</p>
+        <button>Calculate</button>
+        <h1 id="quote">
+            *the program is running smothly, but the API only supports 12-15 countries (INR, IDF, USA, HUF ,EUR, ZAR
+            ,etc)
+        </h1>
+    </div>
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

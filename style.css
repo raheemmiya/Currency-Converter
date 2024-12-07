@@ -1,0 +1,73 @@
+*{ 
+    margin : 0; 
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4335A7;
+}
+
+.container{ 
+    background-color: #80C4E9;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    min-width: 500px;
+    justify-content: space-around;
+
+}
+
+.container button{ 
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    color: purple;
+    cursor: pointer;
+}
+
+.container #message{ 
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.amount input{ 
+    font-size: 15px;
+    height: 2rem;
+    border: none;
+    border-radius: 9px;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+    width: 40vh;
+}
+
+.dropdowns{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}   
+
+.dropdowns #exchange-img{
+    transform: scale(0.3);
+}
+
+.dropdowns select, option, label{ 
+    font-size: 20px;
+    border-radius: 3px;
+    border: none
+}
+
+#quote{ 
+    padding: 0px 15px;
+    font-size: 12px;
+}
